@@ -1,27 +1,28 @@
-body{
+html{
+  font-size: 20px; /* ルート要素のフォントサイズ */
+}
+
+body {
   font-family: "Arial", "Meiryo", sans-serif;
-  font-size: 20px;
-  text-align: center;
-}
-.blue{
-  color: skyblue;
-}
-.pink{
-  color: rgb(255, 192, 203) ;
-}
-h1{
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Sans+JP&display=swap" rel="stylesheet">
-  
-  font-family: sans-serif;
-  font-size: 2rem;
-  letter-spacing:1.2em;
-  text-shadow:2px 2px 3px red;
-
-  border-bottom:solid 3px rgb(115, 115, 114);
+  text-align: center; /* テキストを中央寄せ */
 }
 
-#basic p{
-  font-weight:bold;
+h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2rem; /* ルート要素の2倍 */
+  letter-spacing: 1.2em; /* 文字サイズの1.2倍 */
+  text-shadow: 2px 2px 3px red; /* 影を付ける */
+  border-bottom: solid 3px rgb(115, 115, 114); /* 下線 */
+}
+
+.blue {
+  color: skyblue; /* スカイブルー */
+}
+
+.pink {
+  color: rgb(255, 192, 203); /* ピンク */
+}
+
+#basic p {
+  font-weight: bold;
 }
