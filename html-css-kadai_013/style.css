@@ -77,7 +77,6 @@ body{
 
 /* ハンバーガーメニュー */
 #menu-sp {
-  display: block;
   float: right;
   padding: 0;
 }
@@ -90,8 +89,8 @@ body{
   top: 0;
   height: 100%;
   width: 100%;
-  z-index: 100;
   display: none;
+  z-index: 100;
 }
 #nav-sp nav ul {
   padding-left: 0;
@@ -124,6 +123,10 @@ body{
   color: #ffffff;
 }
 #nav-sp nav a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+#nav-sp nav a:active{
   color: #ffffff;
 }
 
