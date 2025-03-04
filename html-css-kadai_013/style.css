@@ -101,6 +101,7 @@ body{
 
 /* ×ボタン */
 #close {
+  background-color: #ce993e;
   position: absolute;
   top: 20px;
   right: 20px;
