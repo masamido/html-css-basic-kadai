@@ -79,6 +79,9 @@ body{
 #menu-sp {
   float: right;
   padding: 0;
+  background-color: transparent;
+  border: none;
+  outline: none;
 }
 /* スマホ用ナビゲーションの表示切替*/
 /* 初期状態、レイアウトと非表示設定 */
@@ -101,10 +104,12 @@ body{
 
 /* ×ボタン */
 #close {
-  background-color: #ce993e;
   position: absolute;
   top: 20px;
   right: 20px;
+  background-color: transparent; /* 背景色を透明に */
+  border: none; /* 枠線を削除 */
+  outline: none; /* アウトラインを削除 */
 }
 
 /* ナビゲーションメニュー用ロゴ */
